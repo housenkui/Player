@@ -1,0 +1,14 @@
+prefix=/usr/local/Cellar/ffmpeg/4.2.1_2
+exec_prefix=${prefix}
+libdir=/usr/local/Cellar/ffmpeg/4.2.1_2/lib
+includedir=/usr/local/Cellar/ffmpeg/4.2.1_2/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 58.29.100
+Requires: 
+Requires.private: libavcodec >= 58.54.100, libswresample >= 3.5.100, libavutil >= 56.31.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -lbz2 -L/usr/local/Cellar/libbluray/1.1.2/lib -lbluray -lz -L/usr/local/Cellar/gnutls/3.6.10/lib -lgnutls -L/usr/local/Cellar/openssl@1.1/1.1.1d/lib -L/usr/local/Cellar/rtmpdump/2.4+20151223_1/lib -lrtmp -lz -lssl -lcrypto
+Cflags: -I${includedir}
