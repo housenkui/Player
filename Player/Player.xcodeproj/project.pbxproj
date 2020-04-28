@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF5D0AD82456B598008DC69C /* libavfilter.7.57.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC1BDC22454440B00926446 /* libavfilter.7.57.100.dylib */; };
+		EF5D0AD92456B598008DC69C /* libavfilter.7.57.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = EFC1BDC22454440B00926446 /* libavfilter.7.57.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		EFC1BBF5245442CB00926446 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EFC1BBF4245442CB00926446 /* main.c */; };
 		EFC1BE072454443300926446 /* libavcodec.58.54.100.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC1BDC82454440B00926446 /* libavcodec.58.54.100.dylib */; };
 		EFC1BE082454443300926446 /* libavcodec.58.54.100.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = EFC1BDC82454440B00926446 /* libavcodec.58.54.100.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -46,6 +48,7 @@
 				EFC1BE112454445D00926446 /* libswresample.3.5.100.dylib in Embed Libraries */,
 				EFC1BE0D2454444100926446 /* libavformat.58.29.100.dylib in Embed Libraries */,
 				EFC1BE132454446300926446 /* libswscale.5.5.100.dylib in Embed Libraries */,
+				EF5D0AD92456B598008DC69C /* libavfilter.7.57.100.dylib in Embed Libraries */,
 				EFC1BE082454443300926446 /* libavcodec.58.54.100.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
@@ -318,6 +321,7 @@
 				EFC1BE102454445D00926446 /* libswresample.3.5.100.dylib in Frameworks */,
 				EFC1BE0C2454444100926446 /* libavformat.58.29.100.dylib in Frameworks */,
 				EFC1BE122454446300926446 /* libswscale.5.5.100.dylib in Frameworks */,
+				EF5D0AD82456B598008DC69C /* libavfilter.7.57.100.dylib in Frameworks */,
 				EFC1BE072454443300926446 /* libavcodec.58.54.100.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
